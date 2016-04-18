@@ -1,5 +1,5 @@
 const USER_PROFILE_URL = "https://api.github.com/users/";
-var myUserName = "torvalds";
+var myUserName = "spanglishwebs";
 
 function fillTemplateWithUserData(data){
 	$('#gitHubAvatar').attr("src", data.avatar_url);
